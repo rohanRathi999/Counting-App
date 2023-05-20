@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+</head>
+<body>
+    <div>
+        <div class="content">
+                <h3>Increment and Decrement</h3>
+            <div class="flex">
+                <button onclick="decrement()">
+                    <i class="fa-solid fa-minus"></i>
+                </button>
+                <p>0</p>
+                <button onclick="increment()">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <style>
+        body{
+            background-color: rgb(113, 113, 150);
+        }
+        p{
+            font-size: x-large;
+            font-weight: bold;
+        }
+        button{
+            font-size: large;
+        }
+       .content{
+        margin-top: 20%;
+        text-align: center;
+       }
+       .flex{
+        margin-left: 44.5%;
+        width: 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+       }
+
+    </style>
+
+    <script src="https://kit.fontawesome.com/d907e7149e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
